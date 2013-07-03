@@ -10,7 +10,6 @@
 //Take one down, pass it around, Ninety-eight bottles of beer on the wall!
 
 
-
 library countingBeer;
 
 import 'dart:html';
@@ -19,9 +18,6 @@ import 'package:Beer/string_util.dart';
 
 @observable String song = "";
 @observable bool spellOutNumbers = false;
-
-//TESTING!
-@observable String sugaryShits;
 
 
 
