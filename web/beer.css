@@ -1,0 +1,36 @@
+body {
+  cursor: pointer !important;
+  background-color: #F8F8F8;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.2em;
+  margin: 15px;
+}
+
+h1, p {
+  color: #333;
+}
+
+.box-container {
+  width: 500px;
+  height: 600px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+
+.btn, input, label {
+  cursor: pinter !important;
+}
+
+/* this helps checkbox labels line up vertically with the checkbox */
+input[type=checkbox] {
+  float: left;
+  margin-right: 0.4em;
+}
+
+textarea {
+  width: 95%;
+  height: 85%;
+}
